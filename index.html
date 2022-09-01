@@ -1,22 +1,27 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Mark's portfolio containing several webpage projects.">
-  <title>Mark's Portfolio</title>
+  <meta name="description" content="Portfolio met meerdere projecten frontend projecten gemaakt door Mark">
+
+  <title>Portfolio Mark Vanweersch</title>
+
   <link rel="stylesheet" href="styles.css">
   <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Quicksand&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Quicksand&display=swap" rel="stylesheet">
+
   <script src="https://kit.fontawesome.com/c6700c0059.js" crossorigin="anonymous"></script>
+
 </head>
 <body>
   
   <nav id="navbar">
     <ul class="navlist">
-      <a href="#welcome-section"><li>About</li></a>
-      <a href="#projects"><li>Projects</li></a>
+      <a href="#welcome-section"><li>Over</li></a>
+      <a href="#projects"><li>Projecten</li></a>
       <a href="#contact"><li>Contact</li></a>
     </ul>
   </nav>
@@ -25,15 +30,87 @@
 
     <section id="welcome-section">
       <div>
-        <h1>Hi, i'm Mark</h1>
-        <p>and welcome to my portfolio.</p>
+        <h1>Hi, ik ben Mark</h1>
+        <p>en welkom op mijn portfolio</p>
       </div>
     </section>
 
     <section id="projects">
-      <h2>These are some of my projects</h2>
+      <h2>Een aantal van mijn projecten</h2>
       <div class="projects-container">
-        
+
+        <!-- 
+
+          Project tile template
+          
+          <article>
+          <a href="xxxxxxxxxx" target="_blank">
+            <div class="project-tile">
+              <img src="xxxxxxxxxx" alt="xxxxxxxxxx">
+              <div class="title-container">
+                <h3>xxxxxxxxxx</h3>
+              </div>
+            </div>
+          </a>
+        </article> 
+      
+      -->
+
+        <article>
+          <a href="https://markvanweersch.github.io/faq-accordion-card/" target="_blank">
+            <div class="project-tile">
+              <img src="./images/faq-accordion-card.png" alt="Preview van FAQ website">
+              <div class="title-container">
+                <h3>FAQ Accordion Card</h3>
+              </div>
+            </div>
+          </a>
+        </article>
+
+        <article>
+          <a href="https://markvanweersch.github.io/testimonials-grid-section/" target="_blank">
+            <div class="project-tile">
+              <img src="/images/testimonials-grid-section.png" alt="project tile">
+              <div class="title-container">
+                <h3>Testimonials Grid Section</h3>
+              </div>
+            </div>
+          </a>
+        </article>
+
+        <article>
+          <a href="https://markvanweersch.github.io/product-preview-card-component/" target="_blank">
+            <div class="project-tile">
+              <img src="/images/product-preview-card.png" alt="project tile">
+              <div class="title-container">
+                <h3>Product Preview Card</h3>
+              </div>
+            </div>
+          </a>
+        </article>
+
+        <article>
+          <a href="https://markvanweersch.github.io/NFT-preview-card-component/" target="_blank">
+            <div class="project-tile">
+              <img src="/images/NFT-preview-card-component.png" alt="project tile">
+              <div class="title-container">
+                <h3>NFT Preview Card Component</h3>
+              </div>
+            </div>
+          </a>
+        </article>
+
+        <article>
+          <a href="https://markvanweersch.github.io/FrontendMentor-qr-code/" target="_blank">
+            <div class="project-tile">
+              <img src="/images/qr-code-component.png" alt="project tile">
+              <div class="title-container">
+                <h3>QR Code Component</h3>
+              </div>
+            </div>
+          </a>
+        </article>
+
         <article>
           <a href="https://codepen.io/MWVanweersch/pen/YzavOEy" target="_blank">
             <div class="project-tile">
@@ -77,58 +154,14 @@
             </div>
           </a>
         </article>
-
-        <article>
-          <a href="https://markvanweersch.github.io/FrontendMentor-qr-code/" target="_blank">
-            <div class="project-tile">
-              <img src="/images/qr-code-component.png" alt="project tile">
-              <div class="title-container">
-                <h3>QR Code Component</h3>
-              </div>
-            </div>
-          </a>
-        </article>
-
-        <article>
-          <a href="https://markvanweersch.github.io/product-preview-card-component/" target="_blank">
-            <div class="project-tile">
-              <img src="/images/product-preview-card.png" alt="project tile">
-              <div class="title-container">
-                <h3>Product Preview Card</h3>
-              </div>
-            </div>
-          </a>
-        </article>
-
-        <article>
-          <a href="https://markvanweersch.github.io/NFT-preview-card-component/" target="_blank">
-            <div class="project-tile">
-              <img src="/images/NFT-preview-card-component.png" alt="project tile">
-              <div class="title-container">
-                <h3>NFT Preview Card Component</h3>
-              </div>
-            </div>
-          </a>
-        </article>
-
-        <article>
-          <a href="https://markvanweersch.github.io/testimonials-grid-section/" target="_blank">
-            <div class="project-tile">
-              <img src="/images/testimonials-grid-section.png" alt="project tile">
-              <div class="title-container">
-                <h3>Testimonials Grid Section</h3>
-              </div>
-            </div>
-          </a>
-        </article>
         
       </div>
     </section>
 
     <section id="contact">
       <div class="contact-container">
-        <h2>Get in contact</h2>
-        <p>or visit one of my profiles.</p>
+        <h2>Kom in contact</h2>
+        <p>of bezoek een van mijn profielen.</p>
       </div>
       <div class="social-icons-container">
         <a href="mailto:mwvanweersch@gmail.com" target="_blank">
@@ -152,8 +185,9 @@
   </main>
 
   <footer>
-    <p>Made to achieve freeCodeCamp's responsive web design certificate</p>
+    <p>Gemaakt voor het behalen van het <a href="https://www.freecodecamp.org/certification/MWVanweersch/responsive-web-design" target="_blank">Responsive Web Design Certificate</a> van <a href="https://www.freecodecamp.org/" target="_blank">freeCodeCamp</a>.</p>
     <p>&copy; 2022 Mark Vanweersch</p>
   </footer>
+
 </body>
 </html>
